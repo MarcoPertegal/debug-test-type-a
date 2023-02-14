@@ -40,7 +40,7 @@ public class Ejercicio1 {
 		for(int i = 0; i < arr.length; i++) {
 			if (contains(arr[i], result)) {
 				result[resultSize] = arr[i];
-				resultSize--;
+				resultSize++;
 			}
 		}
 		

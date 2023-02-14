@@ -83,7 +83,7 @@ public class Ejercicio2 {
         }
 
         int[] elementosComunes = new int[longitudMinima];
-        int pos = 0;
+        int pos = -1;
 
         for(int i = 0; i < array1.length; i++) {
             for(int j = 0; j < array2.length; j++) {
